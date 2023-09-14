@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test suite">
+    <test name="Smoke Tests">
+        <groups>
+            <run>
+                <include name="smoke"></include>
+            </run>
+        </groups>
+        <classes>
+            <class name="hanna.app.calcTests.AddingMethodTest"/>
+            <class name="hanna.app.calcTests.SubtractingMethodTest"/>
+            <class name="hanna.app.calcTests.MultiplyingMethodTest"/>
+            <class name="hanna.app.calcTests.DividingMethodTest"/>
+        </classes>
+    </test>
+</suite>
