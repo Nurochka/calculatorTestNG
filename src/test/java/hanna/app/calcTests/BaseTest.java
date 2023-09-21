@@ -11,7 +11,7 @@ public class BaseTest {
 
     CalculatorApplication calc;
 
-    @BeforeClass
+    @BeforeClass(groups = {"smoke"})
     public void beforeClass() {
         calc = new CalculatorApplication();
     }
